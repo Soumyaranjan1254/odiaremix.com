@@ -47,3 +47,81 @@ button {
 button:hover {
     background: darkred;
 }
+body {
+    margin: 0;
+    font-family: Arial;
+    background: white;
+    color: green;
+    text-align: center;
+}
+
+h1 {
+    background: white;
+    padding: 15px;
+    margin: 0;
+}
+
+.song-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.song-item {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+}
+
+.song-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.song-item:hover {
+    background: #444;
+}
+
+.song-page {
+    padding: 20px;
+}
+
+.cover {
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+audio {
+    width: 90%;
+    margin: 15px 0;
+}
+
+button {
+    padding: 12px 25px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 600px) {
+    .song-item {
+        width: 90%;
+    }
+
+    .cover {
+        width: 90%;
+    }
+}
