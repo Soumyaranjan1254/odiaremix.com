@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    background: #77df07;
+    padding: 10px;
+}
+
+.cover img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.details {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+audio {
+    width: 60%;
+    margin: 15px 0;
+}
+
+button {
+    padding: 12px 25px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}
